@@ -170,21 +170,12 @@ O banco de dados está normalizado até a **3ª Forma Normal (3FN)**:
 - [ ] Criar dashboard com métricas
 - [ ] Adicionar controle de permissões granular
 
-## 👥 Autor
-
-**Seu Nome**
-- GitHub: [@seuusuario](https://github.com/seuusuario)
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seuperfil)
 
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 🙏 Agradecimentos
 
-- Instituição de Ensino
-- Professor Orientador
-- Comunidade MySQL
 
 ---
 
