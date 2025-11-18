@@ -151,32 +151,30 @@ ORDER BY Total_Consultas DESC;
 
 -- Script com comandos de UPDATE e DELETE
 
--- =================================================================
--- COMANDOS DE UPDATE
--- =================================================================
+COMANDOS DE UPDATE
 
--- UPDATE 1: Atualizar o telefone de um paciente específico.
+
+UPDATE 1: Atualizar o telefone de um paciente específico.
 UPDATE Paciente
 SET telefone = '34 99988-7766'
 WHERE idPaciente = 1; -- ATUALIZA O TELEFONE DE 'João da Silva'
 
 
--- UPDATE 2: Alterar o status de uma consulta agendada para 'Confirmada'.
+UPDATE 2: Alterar o status de uma consulta agendada para 'Confirmada'.
 UPDATE Consulta
 SET status = 'Confirmada'
 WHERE idConsulta = 3 AND status = 'Agendada';
 
 
--- UPDATE 3: Atualizar o diagnóstico de um prontuário após uma reavaliação.
+UPDATE 3: Atualizar o diagnóstico de um prontuário após uma reavaliação.
 UPDATE Prontuario
 SET diagnostico = 'Dermatite Alérgica'
 WHERE idProntuario = 2;
 
 
--- =================================================================
--- COMANDOS DE DELETE
--- CUIDADO: SEMPRE USE A CLÁUSULA WHERE EM COMANDOS DELETE E UPDATE!
--- =================================================================
+COMANDOS DE DELETE
+CUIDADO: SEMPRE USE A CLÁUSULA WHERE EM COMANDOS DELETE E UPDATE!
+
 
 -- DELETE 1: Deletar um medicamento que não será mais utilizado na clínica.
 -- (Este comando falhará se o medicamento estiver em uso em alguma receita, devido à restrição de chave estrangeira ON DELETE RESTRICT)
